@@ -1,0 +1,297 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Contact - Barmala</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- site favicon -->
+	<link rel="icon" type="image/png" href="assets/images/favicon.png">
+	<!-- Place favicon.ico in the root directory -->
+
+	<!-- All stylesheet and icons css  -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+	<!-- preloader ending here -->
+
+	<!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+
+    <!-- ================> header section start here <================== -->
+    <header class="header" id="navbar">
+		<div class="header__bottom">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg logo-navbar" style="align-content: center;">
+					<a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo.png" alt="logo"></a>
+				</nav>
+			</div>
+		</div>
+    </header>
+    <!-- ================> header section end here <================== -->
+
+
+
+    <!-- ================> Page Header section start here <================== -->
+    <div class="pageheader bg_img" style="background-image: url(assets/images/bg-img/pageheader.jpg);">
+        <div class="container">
+            <div class="pageheader__content text-center">
+                <h2>Contact Page</h2>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- ================> Page Header section end here <================== -->
+
+	<!-- ===========Info Section Ends Here========== -->
+    <div class="info-section padding-top padding-bottom">
+        <div class="container">
+			<div class="section__header style-2 text-center">
+				<h2>Contact Info</h2>
+				<p>Let us know your opinions. Also you can write us if you have any questions.</p>
+			</div>
+            <div class="section-wrapper">
+                <div class="row justify-content-center g-4">
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="contact-item text-center">
+                            <div class="contact-thumb mb-4">
+                                <img src="assets/images/contact/icon/01.png" alt="contact-thumb">
+                            </div>
+                            <div class="contact-content">
+                                <h6 class="title">Main Office</h6>
+                                <p>Chandigarh, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="contact-item text-center">
+                            <div class="contact-thumb mb-4">
+                                <img src="assets/images/contact/icon/02.png" alt="contact-thumb">
+                            </div>
+                            <div class="contact-content">
+                                <h6 class="title">Phone number</h6>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="contact-item text-center">
+                            <div class="contact-thumb mb-4">
+                                <img src="assets/images/contact/icon/03.png" alt="contact-thumb">
+                            </div>
+                            <div class="contact-content">
+                                <h6 class="title">Send Email</h6>
+                                <p>info@barmala.in</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- ===========Info Section Ends Here========== -->
+
+
+
+    <!-- ================> contact section start here <================== -->
+    <div class="contact-section bg-white">
+        <div class="contact-top padding-top padding-bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-9">
+                        <div class="contact-form-wrapper text-center">
+                            <h2>Feedback</h2>
+							<p class="mb-5">Let us know your opinions. Also you can write us if you have any questions.</p>
+                            <form class="contact-form" action="contact.php" id="contact-form" method="POST">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Your Name" id="name" name="name" required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Your Email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Phone" id="phone" name="phone" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Subject" id="subject" name="subject" required>
+                                </div>
+                                <div class="form-group w-100">
+                                    <textarea name="message" rows="8" id="message" placeholder="Your Message" required></textarea>
+                                </div>
+                                <div class="form-group w-100 text-center">
+                                    <button class="default-btn reverse" type="submit"><span>Send our Message</span></button>
+                                </div>
+                            </form>
+                            <p class="form-message"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-bottom">
+            <div class="contac-bottom">
+                <div class="row justify-content-center g-0">
+                    <div class="col-12">
+                        <div class="location-map">
+                            <div id="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109744.22709388968!2d76.68831139115105!3d30.732254421588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1723289808813!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================> contact section end here <================== -->
+
+
+
+    <!-- ================> Footer section start here <================== -->
+	<footer class="footer overflow-hidden">
+		<div class="footer__top bg_img" style="background-image: url(assets/images/footer/bg-3.jpg)">
+			<div class="footer__newsletter wow fadeInUp" data-wow-duration="1.5s">
+				<div class="container">
+					<div class="row g-4 justify-content-center">
+						<div class="col-lg-12 col-12">
+							<div class="footer__newsletter--area">
+								<div class="footer__newsletter--title">
+									<h4>Newsletter Sign up</h4>
+								</div>
+								<div class="footer__newsletter--form">
+									<form action="#">
+										<input type="email" placeholder="Your email address">
+										<button type="submit" class="default-btn"><span>Subscribe</span></button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__toparea padding-top padding-bottom wow fadeInUp" data-wow-duration="1.5s">
+				<div class="container">
+					<div class="row g-5 g-lg-0">
+						<div class="col-lg-4 col-sm-6 col-12">
+							<div class="footer__item">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>Our Information</h4>
+										</div>
+										<div class="footer__content--desc">
+											<ul>
+												<li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+												<li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 col-12">
+							<div class="footer__item">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>Links</h4>
+										</div>
+										<div class="footer__content--desc">
+											<ul>
+												<li><a href="form.html"><i class="fa-solid fa-angle-right"></i> Fill Form</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> FAQs</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 col-12">
+							<div class="footer__item">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>Policies</h4>
+										</div>
+										<div class="footer__content--desc">
+											<ul>
+												<li><a href="privacy-policy.html"><i class="fa-solid fa-angle-right"></i> Privacy policy</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Terms of Services</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer__bottom wow fadeInUp" data-wow-duration="1.5s">
+			<div class="container">
+				<div class="footer__content text-center">
+					<p class="mb-0">All Rights Reserved &copy; 2024 <a href="index.html">Barmala</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <!-- ================> Footer section end here <================== -->
+
+	
+	
+
+	<!-- All Needed JS -->
+	<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<!-- <script src="assets/js/all.min.js"></script> -->
+	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/counterup.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script src="assets/js/lightcase.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/main.js"></script>
+
+
+	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+	<script>
+		window.ga = function () {
+			ga.q.push(arguments)
+		};
+		ga.q = [];
+		ga.l = +new Date;
+		ga('create', 'UA-XXXXX-Y', 'auto');
+		ga('set', 'anonymizeIp', true);
+		ga('set', 'transport', 'beacon');
+		ga('send', 'pageview')
+	</script>
+	<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+</html>
